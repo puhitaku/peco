@@ -6,7 +6,7 @@ import (
 	"github.com/peco/peco/line"
 )
 
-const filterBufSize = 1000
+const filterBufSize = 10000
 
 var lineListPool = sync.Pool{
 	New: func() interface{} {
